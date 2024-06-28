@@ -1,3 +1,4 @@
+/*
 package com.kafka.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
@@ -19,7 +20,7 @@ public class KafkaProducerConfig {
 
     @Bean
     public NewTopic newTopic(){
-        return new NewTopic("strange_topic", 5, (short) 1);
+        return new NewTopic("latest_strange_topic", 5, (short) 1);
     }
 
     @Bean
@@ -43,3 +44,4 @@ public class KafkaProducerConfig {
         return new KafkaTemplate<>(consumerFactory());
     }
 }
+*/
